@@ -1,1 +1,0 @@
-# 4) Qual será o valor final de x?

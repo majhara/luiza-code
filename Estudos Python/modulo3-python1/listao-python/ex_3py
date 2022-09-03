@@ -1,0 +1,104 @@
+# 3) Determine qual é o resultado dos seguintes cálculos no Python:
+
+## Operadores matemáticos:
+print(10+3)
+#output: 13
+print(10-3)
+#output: 7
+print(10*3)
+#output:30
+print(10 / 3)
+#output: 3.3333333333333335
+print(10/3.0)
+#output: 3.3333333333333335 
+print(13 / 3)
+#output: 4.333333333333333
+print(13 / 3.0)
+#output: 4.333333333333333
+print(13 // 3.0)
+#output: 4.0
+
+## Ordem dos operadores:
+print(5 + 30 * 20)
+#output: 605
+print((5 + 30) * 20)
+#output: 700
+print(((5 + 30) * 20) / 10)
+#output: 70.0
+print(5 + 30 * 20 / 10)
+#output: 65.0
+print()
+
+## Operadores comparação:
+print(2 < 3)
+#output: True
+print(9 > 8)
+#output: True
+print(1 == 1)
+#output:True
+print(1 != 2)
+#output: True
+print(1 != 1)
+#output: False
+print(4 <= 4)
+#output: True
+print(5 >= 6)
+#output: False
+print(1 < 2 < 3)
+#output: True
+print(1 < 2 < 2)
+#output:False
+print(1 + 2 < 25 / 5)
+#output: True
+
+## Mais operadores matemáticos:
+print(2 ** 4)
+# output: 16
+print(26 % 5)
+# output: 1 
+print()
+## Operadores lógicos:
+print(not True)
+#output: False
+print(not False)
+#output: True
+print(True and True)
+#output: True
+print(True and False)
+#output: False
+print(False and True)
+#output: False
+print(False and False)
+#output: False
+print(True or True)
+#output: True
+print(True or False)
+#output: True
+print(False or True)
+#output: True
+print(False or False)
+#output: False
+print("True or True and False: ", True or True and False)
+#output: True
+print("(True or True) and False: ", (True or True) and False)
+#output: False
+print("not True or false: ", not True or False)
+#output: False
+print("not (True or False): ", not (True or False))
+#output: False
+print("not (True and False) and (True or False): ", not (True and False) and (True or False))
+#output: True
+print(1 > 2 and 3 > 4)
+#output: False
+print(1 > 2 and 3 < 4)
+#output: False
+print(1 < 2 and 3 < 4)
+#output: True
+print(1 + 2 and 3 + 4)
+#output: 7
+print(1 + 2 or 3 + 4)
+#output: 3
+print(True and 3 > 5)
+# output: False
+print(False and 3 > 5)
+# output: False
